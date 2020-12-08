@@ -10,8 +10,7 @@ $var1=1;
 
 while ($var1<10){ ?>
     <?=$var1." ";?>
-
-    <?php
+    <?php $var1+=$var1/2;
     $var1+=$var1/2;
 }
 ?>
